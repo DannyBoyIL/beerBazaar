@@ -1,0 +1,73 @@
+<div ng-controller="shopController">
+    <div class="left"> 
+        <div class="search-box">
+            <input type="text" placeholder="Search for beer:" ng-model="searchText.beerName">
+        </div>
+        <div class="beer" ng-repeat="beer in beers| orderBy:sortBeers | filter:searchText">
+            <h2>{{ beer.beerName}}<br />
+                <span>Brewed by: {{ beer.beerBrewery}} | Brewery: {{ beer.beerBrewery}}-brewery | Style: {{ beer.beerSCategory}} </span> </h2>
+            <div class="bg"></div>
+            <div class="clr"></div>
+            <br>
+            <img ng-src="images/{{ beer.beerImage}}" alt="{{ beer.beerName}} beer name" height="200" class="floated" />
+            <p> {{ beer.beerDescription}} </p>
+            <p><a ng-href="#!/beer/{{beer.beerID}}" target="_blank">read more about...</a></p>
+            <p class="price">&#8362; {{ beer.beerPrice}}</p>
+            <br>
+            <div class="bg"></div>
+        </div>
+    </div>
+    <div class="right">
+        <select id="soflow" ng-model="sortBeers" ng-change="changeSort();">
+            <option value="+beerName">Sort by beer name</option>
+            <option value="+beerBrewery">Sort by brewery</option>
+        </select>
+        <h3>Order beers by price</h3>
+        <div class="bg"></div>
+        <ul id="sort-price-links">
+            <li><a href="" ng-click="sortByPrice('+beerPrice');">Low to high</a></li>
+            <li><a href="" ng-click="sortByPrice('-beerPrice');">High to low</a></li>
+        </ul>
+        <h3>Style Categories</h3>
+        <div class="bg"></div>
+        <ul class="sponsors">
+            <li class="sponsors">
+                <input type="checkbox" ng-model="APA" ng-click="filterCategories();">
+                <label>A.P.A</label>
+                <br />
+                American Pale Ales
+            </li>
+            <li class="sponsors">
+                <input type="checkbox" ng-model="BPA" ng-click="filterCategories();">
+                <label>B.P.A</label>
+                <br />
+                British Pale Ales
+            </li>
+            <li class="sponsors">
+                <input type="checkbox" ng-model="IPA" ng-click="filterCategories();">
+                <label>I.P.A</label>
+                <br />
+                Indian Pale Ales
+            </li>
+            <li class="sponsors">
+                <input type="checkbox" ng-model="WeissBier" ng-click="filterCategories();">
+                <label>Weiss Bier</label>
+                <br />
+                German Wheat Ales
+            </li>
+            <li class="sponsors">
+                <input type="checkbox" ng-model="Belgium" ng-click="filterCategories();">
+                <label>Belgium</label>
+                <br />
+                Belgium style Ales
+            </li>
+            <li class="sponsors">
+                <input type="checkbox" ng-model="Lager" ng-click="filterCategories();">
+                <label>Lager</label>
+                <br />
+                Lager & Pilsner beers
+            </li>
+        </ul>
+    </div>
+</div>
+

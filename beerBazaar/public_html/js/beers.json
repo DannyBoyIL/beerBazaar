@@ -1,0 +1,62 @@
+[
+    {
+        "beerID": 1,
+        "beerSCategory": "BPA",
+        "beerName": "Bitter",
+        "beerImage": "dictator_bitter.jpg",
+        "beerBrewery": "Dictator",
+        "beerPrice": 26,
+        "beerDescription": "As befits the Bitter style, the beer is balanced with a great maltique sweetness and light citrus aromas. On the white label is the face of the British Guy Fawkes (a face identified with the Anonymous organization as well as the main character in the film *\"Vendetta*\"). The capital was also launched on November 5 to mark the day when Guy tried to assassinate King James I during a house meeting. Lords, on November 5 1605 percent of alcohol in the capital is low, making it to be the perfect noon capital. 3.8% alcohol.",
+        "beerMore": "https://www.facebook.com/DictatorBeer/"
+    },
+    {
+        "beerID": 2,
+        "beerSCategory": "APA",
+        "beerName": "Pale Ale",
+        "beerImage": "dictator_pale.jpg",
+        "beerBrewery": "Dictator",
+        "beerPrice": 74,
+        "beerDescription": "A beer in the style of American Pale Ale, horseradish, bitter but balanced in taste with a bit of maltic sweetness and delicate fruity aromas.The face of a Palestinian dictator appears on the label of a deer Was actually overthrown by the American nation, which is depicted on the green background, which hints at the main component of the capital - the hops. 5.5% alcohol.",
+        "beerMore": "https://www.facebook.com/DictatorBeer/"
+    },
+    {
+        "beerID": 3,
+        "beerSCategory": "APA",
+        "beerName": "Irish Red",
+        "beerImage": "dictator_red2.jpg",
+        "beerBrewery": "Dictator",
+        "beerPrice": 17,
+        "beerDescription": "Irish-style beer, with a pleasant maltese sweetness, delicate fruit aromas and a slightly smoky finish. On the label of the Irish Red Rose, Lenin's face is stamped in solidarity with the red style against an orange background that implies Ireland's 4.7% alcohol.",
+        "beerMore": "https://www.facebook.com/DictatorBeer/"
+    },
+    {
+        "beerID": 4,
+        "beerSCategory": "Belgium",
+        "beerName": "Alexander Blazer",
+        "beerImage": "alex_bleisser.jpg",
+        "beerBrewery": "Alexander",
+        "beerPrice": 17,
+        "beerDescription": "A golden beer with a white, maltite, smooth, and creamy white head begins with a hint of sweetness and continues with a precise bitterness, balanced and balanced, a beer with a flavor that is still hard to distinguish. 8% alcohol is part of the special character of the beer and the Israeli twist is due to our use of wheat Israeli as one of the capital's ingredients",
+        "beerMore": "http://alexander-beer.co.il/?page_id=928"
+    },
+    {
+        "beerID": 5,
+        "beerSCategory": "WeissBier",
+        "beerName": "Bazelet Wheat",
+        "beerImage": "bazelet_wheat.jpeg",
+        "beerBrewery": "Golan",
+        "beerPrice": 21,
+        "beerDescription": "Bazelet Wheat beer is a fresh Israeli-style Israeli beer, produced in the Golan Heights. The beer is unfiltered, undergoes a second fermentation in the bottle and it is vague and contains a natural yeast residue. The beer comes in a fruity taste with mild acidity and bitterness that together create a refreshing and sage experience.",
+        "beerMore": "http://www.beergolan.co.il/Info.php?id=wheat_beer"
+    },
+    {
+        "beerID": 6,
+        "beerSCategory": "Lager",
+        "beerName": "Bazelet Pilsner",
+        "beerImage": "bazelet_pils.png",
+        "beerBrewery": "Golan",
+        "beerPrice": 36,
+        "beerDescription": "Basalt beer Pilsner is the capital of a fresh lager, produced in the Golan brewery. The basalt Pilsner undergoes a soft filtration, and it has a gentle bitterness and a light sweetness, which together create beer for a rich and balanced lager.", 
+        "beerMore": "http://www.beergolan.co.il/Info.php?id=emek_beer"
+    }
+]
